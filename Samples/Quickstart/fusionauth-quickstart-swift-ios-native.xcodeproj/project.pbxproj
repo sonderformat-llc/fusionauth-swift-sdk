@@ -212,7 +212,7 @@
 			mainGroup = 0E2795EC2BD937B800738892;
 			packageReferences = (
 				0E5184912CD6279C004E2416 /* XCLocalSwiftPackageReference "../../../fusionauth-swift-sdk" */,
-			);
+      );
 			productRefGroup = 0E2795F62BD937B800738892 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -316,6 +316,7 @@
 		0E2796012BD937BA00738892 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -379,6 +380,7 @@
 		0E2796022BD937BA00738892 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
